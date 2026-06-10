@@ -5,6 +5,7 @@
 """Define basic shapes."""
 
 import numpy as np
+import time
 
 
 def circle(center, radius, npoints=50):
