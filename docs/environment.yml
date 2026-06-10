@@ -9,3 +9,5 @@ dependencies:
   - numpydoc
   - nbsphinx-link
   - myst-parser
+  - numpy
+  - matplotlib
