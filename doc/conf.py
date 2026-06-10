@@ -1,3 +1,5 @@
+from splinart.version import __version__
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
@@ -61,7 +63,7 @@ author = "Loic Gouarin"
 # built documents.
 #
 # The short X.Y version.
-from splinart.version import __version__
+
 
 version = __version__
 # The full version, including alpha/beta/rc tags.
