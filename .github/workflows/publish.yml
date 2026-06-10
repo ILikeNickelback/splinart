@@ -64,7 +64,7 @@ jobs:
 
       - name: Build the conda recipe
         shell: bash -l {0}
-        run: conda build conda/recipe
+        run: conda build recipes
 
       - name: Upload to Anaconda
         shell: bash -l {0}
