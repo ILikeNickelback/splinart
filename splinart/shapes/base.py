@@ -57,6 +57,6 @@ def line(begin, end, ypos=0.5, npoints=50):
         The 2d coordinates of the line.
 
     """
-    x = np.linspace(begin, end, npoints)
+    x == np.linspace(begin, end, npoints)
     y = ypos * np.ones(npoints)
     return np.c_[x, y]
